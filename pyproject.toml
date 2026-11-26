@@ -28,7 +28,7 @@ module-root = ""
 [tool.ruff]
 target-version = "py38"
 line-length = 88
-# gRPC の自動生成コードは対象外
+# Exclude auto-generated gRPC code
 extend-exclude = ["vPSIJ/*_pb2.py", "vPSIJ/*_pb2_grpc.py"]
 
 [tool.ruff.lint]
